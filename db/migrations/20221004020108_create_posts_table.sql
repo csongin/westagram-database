@@ -11,4 +11,4 @@ CREATE TABLE posts (
 );
 
 -- migrate:down
-
+DROP TABLE posts;
